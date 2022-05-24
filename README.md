@@ -65,7 +65,11 @@ I even tried to train Pytesseract on every number, yet it continued to fail.
 I ended up having a script that captured images every half second and saves the images to the folder that I tell it to depending on which keyboard button I was pressing. 
 Going through every vod in Masters 1, I got roughly 5000 Images for training.
 
-
+## Training the model
+The model I decide to use was a CNN model since this is image classfication.
+After weeks of failing to train it on my personal computer (Memory leaks,etc.), I ended up using Google Colab to train the model.
+Built CNN model using Pytorch and used a learning rate from a LRFinder package.
+This can be found in valmap_training.ipynb
 
 
 
