@@ -1,6 +1,6 @@
 # Valorant Round Win Predictor
 
-[![Video Describing Project](https://img.youtube.com/vi/-PC8cRZeL5g/0.jpg)](https://www.youtube.com/watch?v=-PC8cRZeL5g)
+[![Video Describing Project](https://img.youtube.com/vi/-PC8cRZeL5g/0.jpg)](https://www.youtube.com/watch?v=-PC8cRZeL5g)\
 ^
 Click for short video on project.
 
