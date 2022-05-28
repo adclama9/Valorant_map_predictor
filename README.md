@@ -7,7 +7,7 @@ Click for short video on project.
 This repo goes through the methodology I took.
 
 Main idea:\
-Have a live feed of a map that can predict the chance of a team winning based on the positioning on the map.\
+Have a live feed (screen capturing) of a map that can predict the chance of a team winning based on the positioning on the map.\
 Trying with the Ascent map.
 
 Steps:
