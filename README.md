@@ -1,5 +1,6 @@
 # Valorant Round Win Predictor
-https://youtu.be/-PC8cRZeL5g
+
+[![Video Describing Project](https://img.youtube.com/vi/-PC8cRZeL5g/0.jpg)](https://www.youtube.com/watch?v=-PC8cRZeL5g)
 
 This repo goes through the methodology I took.
 
