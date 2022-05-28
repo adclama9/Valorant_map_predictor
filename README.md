@@ -1,4 +1,4 @@
-# Valorant Win Predictor
+# Valorant Round Win Predictor
 This repo goes through the methodology I took.
 
 Main idea:
@@ -65,12 +65,35 @@ I even tried to train Pytesseract on every number, yet it continued to fail.
 I ended up having a script that captured images every half second and saves the images to the folder that I tell it to depending on which keyboard button I was pressing. 
 Going through every vod in Masters 1, I got roughly 5000 Images for training.
 
-## Training the model
+## Training the model (train_model_resnet152.ipynb)
+tldr: Tried making my own CNN model but it didn't work. Decided to use untrained Resnet150 instead.
 The model I decide to use was a CNN model since this is image classfication.
 After weeks of failing to train it on my personal computer (Memory leaks,etc.), I ended up using Google Colab to train the model.
-Built CNN model using Pytorch and used a learning rate from a LRFinder package.
-This can be found in valmap_training.ipynb
+Decided to use an untrained ResNet152 since it's a CNN model that's built for classification (and it's popular).
+
+I only tuned the learning rate using a LR-Finder.
+![image](https://user-images.githubusercontent.com/57018666/170832612-073f394c-70ad-47ac-8eb2-9d0a5060d966.png)
+
+Was able to achieve 99% accuracy on training set and 88.6% accuracy on validation set.
+![image](https://user-images.githubusercontent.com/57018666/170832632-12c345a2-faa6-41d2-9373-3b7823205a6c.png)
+
+## Running the model (run_model.py)
+Added an option to choose between 1080p monitor and 1440p monitor. 
+Just watch the game in full screen and run the program. 
+I created a live line graph so that you can visualize which team is performing better (higher is better)
+![image](https://user-images.githubusercontent.com/57018666/170833171-3d619a82-dbe0-434b-a3c0-205b4b28893e.png)
+It will keep predicting over and over until the program is closed.
+
+## Possible Improvements
+1. More data : Add way more images
+2. hyperparameter tuning : I did'nt tune batch size, optimizer weights, etc.
 
 
+## Known errors
+1. Doesn't work well between rounds because it wasn't trained on that.
+2. It was trained before Fade was allowed in Pro play, so if Fade is in the game it has mistakes.
 
-
+#Try it out yourself!
+Download all requirements in valmappredenv.yml
+Download all files
+run run_model.py in the folder. 
