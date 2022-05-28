@@ -61,7 +61,7 @@ I even tried to train Pytesseract on every number, yet it continued to fail.
 
 ### Manually getting images
 I ended up having a script that captured images every half second and saves the images to the folder that I tell it to depending on which keyboard button I was pressing. 
-Going through every vod in Masters 1, I got roughly 5000 Images for training.
+Going through every vod in Masters 1, I got roughly 4500 Images for training and 500 images for validation.
 
 ## Training the model (train_model_resnet152.ipynb)
 tldr: Tried making my own CNN model but it didn't work. Decided to use untrained Resnet150 instead.
