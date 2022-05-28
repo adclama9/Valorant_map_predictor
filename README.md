@@ -75,24 +75,24 @@ I only tuned the learning rate using a LR-Finder.\
 Was able to achieve 99% accuracy on training set and 88.6% accuracy on validation set.\
 ![image](https://user-images.githubusercontent.com/57018666/170832632-12c345a2-faa6-41d2-9373-3b7823205a6c.png)\
 
-## Running the model (run_model.py)\
-Added an option to choose between 1080p monitor and 1440p monitor. \
-Just watch the game in full screen and run the program. \
+## Running the model (run_model.py) 
+Added an option to choose between 1080p monitor and 1440p monitor.\
+Just watch the game in full screen and run the program.\
 I created a live line graph so that you can visualize which team is performing better (higher is better)\
 ![image](https://user-images.githubusercontent.com/57018666/170833171-3d619a82-dbe0-434b-a3c0-205b4b28893e.png)\
 It will keep predicting over and over until the program is closed.\
 
-## Possible Improvements\
+## Possible Improvements
 1. More data : Add way more images\
 2. Add more images for more maps! (Took too long for me to add more)\
 3. hyperparameter tuning : I did'nt tune batch size, optimizer weights, etc.\
 
 
-## Known errors\
+## Known errors
 1. Doesn't work well between rounds because it wasn't trained on that.\
 2. It was trained before Fade was allowed in Pro play, so if Fade is in the game it has mistakes.\
 
-#Try it out yourself!\
+#Try it out yourself!
 (Model file is too big for github, message me and I can send you a google drive link to download it.)\
 Download all requirements in valmappredenv.yml\
 Download all files\
