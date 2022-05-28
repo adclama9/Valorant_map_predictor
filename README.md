@@ -2,17 +2,15 @@
 This repo goes through the methodology I took.
 
 Main idea:
-Have a live feed of a map that can predict the percentage chance of a team winning based on the positioning on the map.
+Have a live feed of a map that can predict the chance of a team winning based on the positioning on the map.
 Trying with the Ascent map.
-
-tldr: Image had to be scaled down for the GPU to be able to process it. CNN prediction values wouldn't change no matter the image it's trying to predict. Probably due to lower quality/not enough data.
 
 Steps:
 1. Acquire data from masters vods
 2. Train CNN on the data
 3. Try on live feed
 
-## Data Collection
+## Data Collection (get_data.py, manual_get_data.py)
 To get the data for our training, I had to go through vods from Masters Reykjavik 2022.
 The vods look like this.
 ![image](https://user-images.githubusercontent.com/57018666/169892769-960e7e0a-60bb-4053-969a-ea1efa7aec10.png)
