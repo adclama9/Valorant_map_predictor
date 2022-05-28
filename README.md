@@ -83,13 +83,13 @@ I created a live line graph so that you can visualize which team is performing b
 It will keep predicting over and over until the program is closed.
 
 ## Possible Improvements
-1. More data : Add way more images\
-2. Add more images for more maps! (Took too long for me to add more)\
+1. More data : Add way more images
+2. Add more images for more maps! (Took too long for me to add more)
 3. hyperparameter tuning : I did'nt tune batch size, optimizer weights, etc.
 
 
 ## Known errors
-1. Doesn't work well between rounds because it wasn't trained on that.\
+1. Doesn't work well between rounds because it wasn't trained on that.
 2. It was trained before Fade was allowed in Pro play, so if Fade is in the game it has mistakes.
 
 #Try it out yourself!
