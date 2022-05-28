@@ -92,7 +92,7 @@ It will keep predicting over and over until the program is closed.
 1. Doesn't work well between rounds because it wasn't trained on that.
 2. It was trained before Fade was allowed in Pro play, so if Fade is in the game it has mistakes.
 
-#Try it out yourself!
+# Try it out yourself!
 (Model file is too big for github, message me and I can send you a google drive link to download it.)\
 Download all requirements in valmappredenv.yml\
 Download all files\
