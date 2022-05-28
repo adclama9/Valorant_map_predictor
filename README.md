@@ -84,7 +84,8 @@ It will keep predicting over and over until the program is closed.
 
 ## Possible Improvements
 1. More data : Add way more images
-2. hyperparameter tuning : I did'nt tune batch size, optimizer weights, etc.
+2. Add more images for more maps! (Took too long for me to add more)
+3. hyperparameter tuning : I did'nt tune batch size, optimizer weights, etc.
 
 
 ## Known errors
