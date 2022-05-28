@@ -1,4 +1,6 @@
 # Valorant Round Win Predictor
+https://youtu.be/-PC8cRZeL5g
+
 This repo goes through the methodology I took.
 
 Main idea:\
