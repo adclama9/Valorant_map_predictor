@@ -16,11 +16,11 @@ Steps:
 3. Try on live feed
 
 ## Data Collection (get_data.py, manual_get_data.py)
-This only works for Ascent map.\ 
+The data was collected from Masters Reykjavik 2022. This is because games from professional teams are generally more coordinated and are less likely to throw a lead. If a team gains and advantage, arguably they are more likely to capitalize on it. Conversely if you try to train and predict on low ranks, the win/loss likelihood may be much more random.
+This only works for Ascent map.\
 I chose Ascent because it was the most played map from the event, so I would get the most data.\
 ![image](https://user-images.githubusercontent.com/57018666/170836156-7b9e7e8b-0764-4fcf-8f16-5eae149f5dec.png)
 
-To get the data for our training, I had to go through vods from Masters Reykjavik 2022.\
 The vods look like this.\
 ![image](https://user-images.githubusercontent.com/57018666/169892769-960e7e0a-60bb-4053-969a-ea1efa7aec10.png)
 
@@ -82,7 +82,8 @@ I only tuned the learning rate using a LR-Finder.\
 ![image](https://user-images.githubusercontent.com/57018666/170832612-073f394c-70ad-47ac-8eb2-9d0a5060d966.png)
 
 Was able to achieve 99% accuracy on training set and 88.6% accuracy on validation set.\
-![image](https://user-images.githubusercontent.com/57018666/170832632-12c345a2-faa6-41d2-9373-3b7823205a6c.png)
+![image](https://user-images.githubusercontent.com/57018666/170832632-12c345a2-faa6-41d2-9373-3b7823205a6c.png)\
+Will need to do a bit more investigation work to see if it's overfitting or what it is basing it's judgement on.
 
 ## Running the model (run_model.py) 
 Added an option to choose between 1080p monitor and 1440p monitor.\
